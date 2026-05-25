@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 400px;
+}
+
+.tabs {
+  margin-bottom: 15px;
+}
+.tab-btn {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  background: #f1f1f1;
+  cursor: pointer;
+  font-weight: bold;
+}
+.tab-btn.active {
+  background: #007acc;
+  color: white;
+}
+
+#search-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.category-group {
+  margin-bottom: 30px;
+}
+.category-group h3 {
+  font-size: 1.2em;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.category-group ul {
+  list-style: none;
+  padding-left: 0;
+}
+.category-group li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.var-name {
+  font-weight: bold;
+  width: 160px;
+}
+.var-value-input {
+  width: 130px;
+}
+.color-picker {
+  width: 40px;
+  height: 30px;
+}
+.color-preview {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  background-color: #000;
+}
+
+.tooltip-icon {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  background: #eee;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  cursor: help;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 0.85em;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 999;
+  transition: opacity 0.3s;
+}
+
+.tooltip-icon:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

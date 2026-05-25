@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Variables</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="tabs">
+    <button class="tab-btn active" data-category="all">All</button>
+    <button class="tab-btn" data-category="colors">Colors</button>
+    <button class="tab-btn" data-category="spacing">Spacing</button>
+    <button class="tab-btn" data-category="typography">Typography</button>
+    <button class="tab-btn" data-category="other">Other</button>
+  </div>
+
+  <input id="search-input" type="text" placeholder="Search a CSS variable...">
+  <div id="variables-list"></div>
+  <ul id="undefined-vars-list"></ul>
+
+  <div class="controls">
+    <button id="undo-btn" disabled>Undo</button>
+    <button id="redo-btn" disabled>Redo</button>
+    <button id="export-btn">Export</button>
+    <button id="check-undefined-btn">Check</button>
+    <button id="add-polyfill-btn">Polyfill</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
