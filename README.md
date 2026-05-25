@@ -1,5 +1,9 @@
 # CSS Variables Viewer
 
+<p align="center">
+  <img src="icons/icon128.png" width="96" height="96" alt="CSS Variables Viewer icon">
+</p>
+
 Chrome extension to inspect and temporarily edit CSS custom properties on the current page.
 
 It lists detected CSS variables, groups them by category, and lets you test value changes directly in the browser. This is useful when adjusting a design system, debugging theme variables, or exploring how a WordPress theme uses CSS custom properties.
