@@ -52,13 +52,17 @@ The extension is meant for inspection and temporary browser-side edits. It does 
 
 ## Screenshots
 
-If you add screenshots later, place them in a `screenshots/` folder and reference them here.
+### Variables Overview
 
-Suggested screenshots:
+![Variables overview](screenshots/pop-1.png)
 
-- variable list grouped by category;
-- color variable with preview and color picker;
-- exported CSS file or undefined variable check.
+### Variable Editing
+
+![Variable editing](screenshots/pop-2.png)
+
+### Popup Controls
+
+![Popup controls](screenshots/pop-bas.png)
 
 ## Permissions
 
